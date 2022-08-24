@@ -1,0 +1,8 @@
+num1 = float(input('Digite um valor em metros: '))
+km = (num1 / 1000)
+hm = (num1 / 100)
+dam = (num1 / 10)
+dm = (num1 * 10)
+cm = (num1 * 100)
+mm = (num1 * 1000)
+print('O valor {} vai ter {}km, {}hm, dam{}, {:.0f}dm, {:.0f}cm , e {:.0f}mm!'.format(num1, km, hm, dam, dm, cm, mm))

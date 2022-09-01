@@ -2,7 +2,7 @@ from random import randint
 from time import sleep
 computador = randint(0, 5) #faz o computador processar
 print('=' * 30)
-print('Vou procesaar um número de 0 até 5...')
+print('Vou processar um número de 0 até 5...')
 print('=' * 30)
 jogador = int(input('Em que numero eu pensei? '))
 print('Processando....')
